@@ -23,7 +23,7 @@ public static void Existing_Powers_of_2()
                 int power = 1 << i;  // wykonujemy przesuniecie bitowe w lewo dla kazdego bitu 
                 if ((score & power) != 0)
                 {
-                    Console.Write(power + ",");
+                    Console.Write(power + ","); //wyswietlamy potegi liczby 2, ktore wystapily
                 }
             }
         }
